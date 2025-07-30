@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 20px;
+    border: 10px solid rgb(152, 207, 252);
+}
+table {
+    width: 100%;
+}
+#movie_col, #year_col, #option_col{
+    background-color: rgba(152, 207, 252, 0.562);
+}
+#nav_bar {
+    margin: 20px 0;
+}
+.nav_button {
+    display: inline-block;
+}
+.nav_button a {
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 4px solid rgb(152, 207, 252);
+    font-size: 16px;
+    margin-right: 10px;
+    background-color: white;
+    color: black;
+}
+.nav_button a.active {
+    background-color: rgb(152, 207, 252);
+}
+.nav_button a:hover {
+    background-color: rgb(152, 207, 252);
+}
+.error {
+    background-color: rgb(245, 131, 131);
+    color: black;
+    padding: 10px;
+    width: 100%;
+    height: 20px;
+}
+.success {
+    background-color: rgb(152, 207, 252);
+    color: black;
+    padding: 10px;
+    width: 100%;
+    height: 20px;
+}
+
+
